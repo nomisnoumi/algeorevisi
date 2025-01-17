@@ -1,0 +1,243 @@
+.sound-result{
+    height: 100vh;
+    padding: 0 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column; /* Ensures children stack properly */
+    justify-content: space-between;
+  }
+  
+.top-sound-res{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 0 5%;
+  padding: 2% 0px;
+}
+
+.back-sound-res{
+  font-family: 'Unbounded';
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.back-sound-res p{
+  margin-left: 10px;
+  color: black;
+  }
+
+.content-container{
+    width: 100%;
+    flex-grow: 1;
+    height: 80%;
+    overflow: auto;
+    padding: 0.5% 1%;
+}
+
+.content2-container{
+    display: flex;
+    height: 80%;
+    width: 140%;
+}
+
+.stat-container {
+    width: 20%; /* Reduce the width of the stat container */
+    height: 100%;
+    position: relative; /* Make this a positioning context */
+    padding: 10px; /* Reduce padding to minimize spacing */
+}
+
+.bottom-stat {
+    position: absolute; /* Position relative to .stat-container */
+    top: 70%; /* Move 50% down */
+    left: 50%; /* Move 50% right */
+    transform: translate(-50%, -50%); /* Center the element */
+    text-align: center; /* Center inline content */
+    display: flex; /* Align children */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    gap: 10px; /* Space between items */
+    width: 90%; /* Slightly reduce width */
+}
+
+
+h1 {
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Horizontally centers text */
+    width: 100%; /* Ensures it spans the container */
+    font-size: xx-large;
+    font-weight: 700;
+    color: #7776f6;
+}
+
+h4 {
+    color: black;
+}
+
+.similarity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-percentage {
+    position: relative; /* Allows children to be positioned absolutely */
+    width: 150px; /* Size of the container */
+    height: 150px; /* Size of the container */
+}
+
+.circle-text-image {
+    position: absolute; /* Places the image absolutely inside the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.percentage {
+    position: absolute; /* Centers the text */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7D6BF5; /* Adjust color to match the design */
+    margin: 0;
+}
+
+.result-container{
+    width: 75%;
+    height: 100%;
+    padding-left: 21%;
+}
+
+.result-section-sound h4{
+    font-size: 20px;
+    font-weight:700;
+    text-transform: uppercase;
+    color: black; /* Adjust color to match the design */
+}
+
+.back-search-sound:hover {
+    transform: scale(1.05);
+    background-color: #2969ff;
+  }
+
+.back-search-sound {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    font-family: "Poppins";
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s;
+  }
+
+
+  .title-res-sound {
+    color: #2969ff;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+.audio-player-sound {
+    height: 30px; /* Reduce the height */
+    width: 100%; /* Make it extend horizontally */
+    width: 300px; /* Set a maximum width */
+    margin: 10px auto; /* Add spacing and center it */
+    outline: none; /* Remove focus outline */
+}
+
+
+.result-section-sound {
+    position: absolute; /* Position relative to the entire window */
+    left: 50%; /* Move 50% from the left */
+    transform: translateX(-50%); /* Center the element horizontally */
+    display: flex; /* Align children */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Optional: Vertically center content */
+    gap: 5px; /* Adds spacing between child elements */
+    text-align: center; /* Ensures text content is centered */
+    top: 27%;
+}
+
+.result-section-sound img {
+  width: 80%; /* Ukuran gambar lebih kecil dari parent */
+  height: 80%;
+  object-fit: cover; /* Tetap menjaga aspek rasio */
+  padding: 10%; /* Menambah jarak di dalam border */
+  border-radius: 30px; /* Opsional: Membuat sudut lebih lembut */
+}
+
+  
+.footer-sound {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+  
+  .footer-button-sound {
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-button-sound.active {
+    background-color: #bcfda9;
+  }
+  
+  .footer-button-sound:hover {
+    background-color: #f3f4f6;
+  }
+  
+  
+  .navbar-sound{
+    width: 100%;
+    position: absolute;
+    bottom: 4vh;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .play-button-container {
+    display: flex; /* Flexbox untuk pusatkan elemen */
+    justify-content: center; /* Pusatkan horizontal */
+    align-items: center; /* Pusatkan vertikal */
+    height: 100%; /* Gunakan tinggi penuh parent container */
+    margin: 10px 0; /* Beri jarak atas dan bawah */
+  }
+  
+  .play-button {
+    background-color: transparent; /* Hilangkan background */
+    border: none; /* Hilangkan border */
+    font-size: 40px; /* Ukuran ikon */
+    color: #2969ff; /* Warna tombol */
+    cursor: pointer; /* Tampilkan kursor pointer */
+    transition: transform 0.2s ease-in-out; /* Animasi transisi */
+  }
+  
+  .play-button:hover {
+    transform: scale(1.1); /* Efek zoom saat di-hover */
+  }

@@ -1,0 +1,128 @@
+import midiparser
+from mido import MidiFile
+import numpy as np
+from scipy.spatial.distance import cosine
+import json
+import os
+ 
+class MIDIProcessor:
+    def __init__(self, segment_size=20, window_size=6):
+        self.segment_size = segment_size
+        self.window_size = window_size
+        
+    def extract_notes(self, midi_file, channel=1):
+        mid = MidiFile(midi_file)
+        notes = []
+        
+        for track in mid.tracks:
+            for msg in track:
+                if msg.type == 'note_on' and msg.channel == channel:
+                    notes.append([msg.note, msg.time])
+        return notes
+    
+    def normalize_segment(self, segment):
+        notes = [note[0] for note in segment]
+        mean = np.mean(notes)
+        std = np.std(notes)
+        return [[(note - mean) / std if std != 0 else 0, time] 
+                for note, time in segment]
+    
+    def create_segments(self, notes):
+        segments = []
+        i = 0
+        while i + self.segment_size <= len(notes):
+            segment = notes[i:i + self.segment_size]
+            segments.append(self.normalize_segment(segment))
+            i += self.segment_size - self.window_size
+        return segments
+
+    def create_atb_histogram(self, notes):
+        histogram = np.zeros(128)
+        for note in notes:
+            histogram[note[0]] += 1
+        return self._normalize_histogram(histogram)
+    
+    def create_rtb_histogram(self, notes):
+        histogram = np.zeros(255)
+        for i in range(1, len(notes)):
+            interval = notes[i][0] - notes[i-1][0]
+            histogram[interval + 127] += 1
+        return self._normalize_histogram(histogram)
+    
+    def create_ftb_histogram(self, notes):
+        histogram = np.zeros(255)
+        first_note = notes[0][0]
+        for note in notes[1:]:
+            interval = note[0] - first_note
+            histogram[interval + 127] += 1
+        return self._normalize_histogram(histogram)
+    
+    def _normalize_histogram(self, histogram):
+        total = np.sum(histogram)
+        if total == 0:
+            return histogram
+        for i in range(len(histogram)):
+            histogram[i] = (histogram[i] * i) / (127 * total)
+        return histogram
+    
+    def calculate_similarity(self, query_features, db_features, weights=(0.4, 0.3, 0.3)):
+        atb_sim = 1 - cosine(query_features.atb, db_features.atb)
+        rtb_sim = 1 - cosine(query_features.rtb, db_features.rtb)
+        ftb_sim = 1 - cosine(query_features.ftb, db_features.ftb)
+        
+        return (weights[0] * atb_sim + 
+                weights[1] * rtb_sim + 
+                weights[2] * ftb_sim)
+
+    def process_file(self, midi_file):
+        notes = self.extract_notes(midi_file)
+        segments = self.create_segments(notes)
+        features = {
+            'segments': segments,
+            'atb': self.create_atb_histogram(notes).tolist(),
+            'rtb': self.create_rtb_histogram(notes).tolist(),
+            'ftb': self.create_ftb_histogram(notes).tolist()
+        }
+        return features
+    
+    def process_dataset(self, midi_folder, output_file):
+        dataset = {}
+        for file in os.listdir(midi_folder):
+            if file.endswith('.mid'):
+                path = os.path.join(midi_folder, file)
+                dataset[file] = self.process_file(path)
+                
+        with open(output_file, 'w') as f:
+            json.dump(dataset, f, indent=2)
+            
+    def find_matches(self, query_notes, database_features, top_k=5):
+        query_features = {
+            'atb': self.create_atb_histogram(query_notes),
+            'rtb': self.create_rtb_histogram(query_notes),
+            'ftb': self.create_ftb_histogram(query_notes)
+        }
+        
+        similarities = []
+        for file, features in database_features.items():
+            sim = self.calculate_similarity(query_features, features)
+            similarities.append((file, sim))
+            
+        return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
+
+# Usage example:
+if __name__ == "__main__":
+    processor = MIDIProcessor()
+    
+    # Process dataset
+    processor.process_dataset("midi_files", "database.json")
+    
+    # Process query (humming input)
+    query_notes = processor.extract_notes("query.mid")
+    
+    # Load database
+    with open("database.json") as f:
+        database = json.load(f)
+    
+    # Find matches
+    matches = processor.find_matches(query_notes, database)
+    print("Top matches:", matches)

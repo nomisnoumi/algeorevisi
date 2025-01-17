@@ -1,0 +1,253 @@
+.page-gallery{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.top-gallery{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 0 5%;
+    padding: 2% 0px;
+}
+
+.back-gallery{
+    font-family: 'Unbounded';
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.back-gallery p{
+    margin-left: 10px;
+}
+
+.back-gallery:hover{
+transform: scale(1.05); 
+}
+
+.gallery{
+    border: 2px solid white;
+    height: 73vh;
+    border-radius: 10px;
+    margin: 0 2.5%;
+    padding: 0px 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.gallery-top{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.songs-container-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px 0; 
+    width: 100%;
+    height: auto; 
+}
+
+.horizontal-slot-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.vertical-slot-gallery {
+    display: block; 
+    margin: 0 auto;
+}
+
+.navbar-gallery{
+    width: 100%;
+    position: absolute;
+    bottom: 4vh;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery h1{
+    color: #BCFDA9;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.gallery p{
+    color: white;
+}
+
+/*CARD EDITS*/
+
+.song-card .content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.song-card .song-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player-buttons-card {
+    display: flex;
+    gap: 20px;
+}
+
+.player-buttons-card button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.player-buttons-card button:hover {
+    transform: scale(1.1);
+    color: #7776F6;
+}
+
+.song-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.song-card h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    color: #7776F6;
+}
+
+.song-card p{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Pagination styles */
+.pagination-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5vh;
+}
+
+.gallery-top button {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.gallery-top button:disabled {
+    cursor: not-allowed;
+}
+
+.page-text-gallery{
+    color: white;
+    font-size: 15px;
+}
+
+/* Audio Player */
+.player-container-gallery{
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    height: 13%;
+    padding: 3px 5px;
+    position: absolute;
+    bottom: 0;
+    margin: 1% 0;
+    display: flex;
+    align-items: center;
+}
+
+.player-container-gallery img{
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+.player-container-gallery img{
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+.player-texts-gallery{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2%;
+    font-family: 'Poppins';
+}
+
+.player-texts-gallery h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #7776F6;
+}
+
+.player-texts-gallery h4{
+    margin-top: -2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.player-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 2%;
+    height: 90%;
+    width: 40%;
+    align-items: center;
+    gap: 5%;
+}
+
+.player-buttons-gallery{
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    width: 80%;
+}
+
+.player-gallery hr{
+    border: solid black 2px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.small-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}

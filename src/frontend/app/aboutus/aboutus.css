@@ -1,0 +1,56 @@
+.aboutus-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: flex-start; 
+    min-height: 100vh; 
+    padding: 2rem; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+.aboutus-page h1{
+    font-size: 45px;
+    color: #2969FF;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.aboutus-page p{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.member-container-data{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: #7776F6;
+    font-weight: 500;
+}
+
+.member-container-data h2{
+    color: #7776F6;
+}
+
+.member-container-data p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.member-row-data{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.tm-aboutus{
+    font-weight: 600;
+    position: absolute;
+    bottom: 5%;
+    color: black;
+    font-size: 18px;
+}

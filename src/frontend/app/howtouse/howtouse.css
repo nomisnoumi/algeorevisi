@@ -1,0 +1,54 @@
+.howtouse-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    min-height: 100vh; 
+    font-family: 'Poppins', sans-serif;
+  }
+
+.howtouse-page h1{
+    font-size: 45px;
+    color: #2969FF;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.usage-row-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    gap: 20px;
+}
+
+.usage-container-data {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px; 
+    width: calc(33.33% - 40px); 
+}
+
+.usage-container-data h2 {
+    color: #7776F6;
+    font-size: 18px; 
+    text-align: left; 
+    font-weight: 600;
+}
+
+.usage-container-data p {
+    color: black;
+    font-size: 14px; 
+    font-weight: 400;
+    text-align: left; 
+}
+
+.tm-aboutus{
+    font-weight: 600;
+    position: absolute;
+    bottom: 5%;
+    color: black;
+    font-size: 18px;
+}

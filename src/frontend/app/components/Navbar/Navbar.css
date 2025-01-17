@@ -1,0 +1,47 @@
+nav {
+    width: 70vw;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links .active a {
+    background-color: #BCFDA9;
+    padding: 8px 20px;
+    border-radius: 5px;
+    min-width: 150px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.navbar-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-links a:hover {
+    transform: scale(1.1);
+}
+
+.nav-dark a {
+    color: white;
+}
+
+.nav-light a {
+    color: black;
+}

@@ -1,0 +1,14 @@
+{
+  "songs": [
+    {
+      "name": "Bohemian Rhapsody",
+      "img": "/datasets/cover/1.jpeg",
+      "music": "/datasets/audio/bohemian rhapsody.mid"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "img": "/datasets/cover/2.jpeg",
+      "music": "/datasets/audio/never gonna give you up.mid"
+    }
+  ]
+}
