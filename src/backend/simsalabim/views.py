@@ -70,36 +70,44 @@ def handle_zip_upload(request):
         uploaded_file = request.FILES['file']
         file_path = os.path.join(target_dir, uploaded_file.name)
 
-        # Save the uploaded file
+        # Save the uploaded ZIP file temporarily
         with open(file_path, 'wb+') as destination:
             for chunk in uploaded_file.chunks():
                 destination.write(chunk)
 
-        # Validate ZIP contents
+        # Tentukan ekstensi yang diizinkan
         allowed_extensions = {'.mid'} if folder == 'audio' else {'.png', '.jpeg', '.jpg'}
+
         try:
-            is_valid, invalid_file = validate_zip_contents(file_path, allowed_extensions)
+            # Validasi isi ZIP dan batasi 251 file pertama
+            is_valid, invalid_file = validate_zip_contents(file_path, allowed_extensions, limit=251)
             if not is_valid:
-                os.remove(file_path)  # Clean up the invalid file
+                os.remove(file_path)
                 allowed_types = " or ".join(allowed_extensions)
                 return JsonResponse({'message': f'Invalid file in ZIP: {invalid_file}. Only {allowed_types} files are allowed.'}, status=400)
 
-            # Extract valid ZIP contents and flatten structure
+            # Ekstraksi file valid ke dalam folder, hanya file saja
             with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                count = 0
                 for member in zip_ref.namelist():
-                    # Skip directories and __MACOSX directory
-                    if member.startswith('__MACOSX/') or member.endswith('/'):
+                    if count >= 251:  # Batasan maksimal 251 file
+                        break
+
+                    # Abaikan direktori atau file sistem
+                    if member.endswith('/') or member.startswith('__MACOSX/'):
                         continue
-                    
-                    # Extract the file directly to the target directory
+
+                    # Ekstraksi hanya file dengan ekstensi yang diizinkan
                     filename = os.path.basename(member)
-                    if filename:  # Ensure it's a valid file
-                        target_path = os.path.join(target_dir, filename)
+                    _, ext = os.path.splitext(filename)
+                    if ext.lower() in allowed_extensions:
                         with zip_ref.open(member) as source_file:
+                            target_path = os.path.join(target_dir, filename)
                             with open(target_path, 'wb') as output_file:
                                 output_file.write(source_file.read())
+                        count += 1
 
-            os.remove(file_path)  # Remove the original ZIP file
+            os.remove(file_path)  # Hapus file ZIP setelah diekstraksi
             return JsonResponse({'message': f'File uploaded and extracted to {folder} successfully!'})
         except zipfile.BadZipFile:
             os.remove(file_path)
@@ -107,25 +115,33 @@ def handle_zip_upload(request):
 
     return JsonResponse({'message': 'No file uploaded!'}, status=400)
 
-
-def validate_zip_contents(zip_file_path, allowed_extensions):
+def validate_zip_contents(zip_file_path, allowed_extensions, limit=251):
     """
-    Validates that all files inside the ZIP file have the allowed extensions.
+    Validates all files inside the ZIP recursively. Only the first `limit` files will be checked.
     """
     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+        count = 0
         for member in zip_ref.namelist():
-            # Skip directories
+            if count >= limit:
+                break
+
+            # Abaikan folder
             if member.endswith('/'):
                 continue
 
+            # Abaikan file sistem
             filename = os.path.basename(member)
-            if filename:  # Ensure it's a file, not a folder
-                _, ext = os.path.splitext(filename)
-                if ext.lower() not in allowed_extensions:
-                    return False, filename
+            if filename in {'README.md', 'LICENSE', '.gitattributes', '.DS_Store', 'Thumbs.db'}:
+                continue
+
+            # Periksa apakah file memiliki ekstensi yang valid
+            _, ext = os.path.splitext(filename)
+            if ext.lower() not in allowed_extensions:
+                return False, filename
+
+            count += 1
+
     return True, None
-
-
 
 @api_view(['POST'])
 def handle_json_upload(request):

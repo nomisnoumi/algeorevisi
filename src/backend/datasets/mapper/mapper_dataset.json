@@ -1,0 +1,1259 @@
+{
+"songs": [
+    {
+    "name": "Caught Up In You",
+    "img": "/datasets/cover/0.jpg",
+    "music": "/datasets/audio/Caught Up In You.mid"
+    },
+    {
+    "name": "Fantasy Girl",
+    "img": "/datasets/cover/1.jpg",
+    "music": "/datasets/audio/Fantasy Girl.mid"
+    },
+    {
+    "name": "A Campfire Song",
+    "img": "/datasets/cover/2.jpg",
+    "music": "/datasets/audio/A_Campfire_Song.mid"
+    },
+    {
+    "name": "Theme From The Godfather",
+    "img": "/datasets/cover/3.jpg",
+    "music": "/datasets/audio/Theme_From_The_Godfather.mid"
+    },
+    {
+    "name": "Dreadlock Holiday.1",
+    "img": "/datasets/cover/4.jpg",
+    "music": "/datasets/audio/Dreadlock_Holiday.1.mid"
+    },
+    {
+    "name": "Dreadlock Holiday.2",
+    "img": "/datasets/cover/5.jpg",
+    "music": "/datasets/audio/Dreadlock_Holiday.2.mid"
+    },
+    {
+    "name": "Dreadlock Holiday.3",
+    "img": "/datasets/cover/6.jpg",
+    "music": "/datasets/audio/Dreadlock_Holiday.3.mid"
+    },
+    {
+    "name": "Dreadlock Holiday.4",
+    "img": "/datasets/cover/7.jpg",
+    "music": "/datasets/audio/Dreadlock_Holiday.4.mid"
+    },
+    {
+    "name": "Dreadlock Holiday",
+    "img": "/datasets/cover/8.jpg",
+    "music": "/datasets/audio/Dreadlock_Holiday.mid"
+    },
+    {
+    "name": "Im Not In Love.1",
+    "img": "/datasets/cover/9.jpg",
+    "music": "/datasets/audio/Im_Not_In_Love.1.mid"
+    },
+    {
+    "name": "Im Not In Love.2",
+    "img": "/datasets/cover/10.jpg",
+    "music": "/datasets/audio/Im_Not_In_Love.2.mid"
+    },
+    {
+    "name": "Im Not In Love.3",
+    "img": "/datasets/cover/11.jpg",
+    "music": "/datasets/audio/Im_Not_In_Love.3.mid"
+    },
+    {
+    "name": "Im Not In Love",
+    "img": "/datasets/cover/12.jpg",
+    "music": "/datasets/audio/Im_Not_In_Love.mid"
+    },
+    {
+    "name": "The Things We Do for Love",
+    "img": "/datasets/cover/13.jpg",
+    "music": "/datasets/audio/The_Things_We_Do_for_Love.mid"
+    },
+    {
+    "name": "Simon Says.1",
+    "img": "/datasets/cover/14.jpg",
+    "music": "/datasets/audio/Simon_Says.1.mid"
+    },
+    {
+    "name": "Simon Says",
+    "img": "/datasets/cover/15.jpg",
+    "music": "/datasets/audio/Simon_Says.mid"
+    },
+    {
+    "name": "Lick It",
+    "img": "/datasets/cover/16.jpg",
+    "music": "/datasets/audio/Lick_It.mid"
+    },
+    {
+    "name": "Short Dick Man",
+    "img": "/datasets/cover/17.jpg",
+    "music": "/datasets/audio/Short_Dick_Man.mid"
+    },
+    {
+    "name": "I Wont Let You Down",
+    "img": "/datasets/cover/18.jpg",
+    "music": "/datasets/audio/I_Wont_Let_You_Down.mid"
+    },
+    {
+    "name": "Come Take My Hand",
+    "img": "/datasets/cover/19.jpg",
+    "music": "/datasets/audio/Come_Take_My_Hand.mid"
+    },
+    {
+    "name": "Dreams.1",
+    "img": "/datasets/cover/20.jpg",
+    "music": "/datasets/audio/Dreams.1.mid"
+    },
+    {
+    "name": "Dreams",
+    "img": "/datasets/cover/21.jpg",
+    "music": "/datasets/audio/Dreams.mid"
+    },
+    {
+    "name": "Let Me Be Free",
+    "img": "/datasets/cover/22.jpg",
+    "music": "/datasets/audio/Let_Me_Be_Free.mid"
+    },
+    {
+    "name": "Never Alone.1",
+    "img": "/datasets/cover/23.jpg",
+    "music": "/datasets/audio/Never_Alone.1.mid"
+    },
+    {
+    "name": "Never Alone",
+    "img": "/datasets/cover/24.jpg",
+    "music": "/datasets/audio/Never_Alone.mid"
+    },
+    {
+    "name": "Have a Nice Day",
+    "img": "/datasets/cover/25.jpg",
+    "music": "/datasets/audio/Have_a_Nice_Day.mid"
+    },
+    {
+    "name": "Get Ready for This",
+    "img": "/datasets/cover/26.jpg",
+    "music": "/datasets/audio/Get_Ready_for_This.mid"
+    },
+    {
+    "name": "Here I Go",
+    "img": "/datasets/cover/27.jpg",
+    "music": "/datasets/audio/Here_I_Go.mid"
+    },
+    {
+    "name": "Let the Beat Control Your Body.1",
+    "img": "/datasets/cover/28.jpg",
+    "music": "/datasets/audio/Let_the_Beat_Control_Your_Body.1.mid"
+    },
+    {
+    "name": "Let the Beat Control Your Body.2",
+    "img": "/datasets/cover/29.jpg",
+    "music": "/datasets/audio/Let_the_Beat_Control_Your_Body.2.mid"
+    },
+    {
+    "name": "Let the Beat Control Your Body.3",
+    "img": "/datasets/cover/30.jpg",
+    "music": "/datasets/audio/Let_the_Beat_Control_Your_Body.3.mid"
+    },
+    {
+    "name": "Let the Beat Control Your Body",
+    "img": "/datasets/cover/31.jpg",
+    "music": "/datasets/audio/Let_the_Beat_Control_Your_Body.mid"
+    },
+    {
+    "name": "Maximum Overdrive.1",
+    "img": "/datasets/cover/32.jpg",
+    "music": "/datasets/audio/Maximum_Overdrive.1.mid"
+    },
+    {
+    "name": "Maximum Overdrive",
+    "img": "/datasets/cover/33.jpg",
+    "music": "/datasets/audio/Maximum_Overdrive.mid"
+    },
+    {
+    "name": "No Limit.1",
+    "img": "/datasets/cover/34.jpg",
+    "music": "/datasets/audio/No_Limit.1.mid"
+    },
+    {
+    "name": "No Limit.2",
+    "img": "/datasets/cover/35.jpg",
+    "music": "/datasets/audio/No_Limit.2.mid"
+    },
+    {
+    "name": "No Limit",
+    "img": "/datasets/cover/36.jpg",
+    "music": "/datasets/audio/No_Limit.mid"
+    },
+    {
+    "name": "No Limits",
+    "img": "/datasets/cover/37.jpg",
+    "music": "/datasets/audio/No_Limits.mid"
+    },
+    {
+    "name": "No Limit extended ",
+    "img": "/datasets/cover/38.jpg",
+    "music": "/datasets/audio/No_Limit_extended_.mid"
+    },
+    {
+    "name": "No One.1",
+    "img": "/datasets/cover/39.jpg",
+    "music": "/datasets/audio/No_One.1.mid"
+    },
+    {
+    "name": "No One",
+    "img": "/datasets/cover/40.jpg",
+    "music": "/datasets/audio/No_One.mid"
+    },
+    {
+    "name": "The Real Thing.1",
+    "img": "/datasets/cover/41.jpg",
+    "music": "/datasets/audio/The_Real_Thing.1.mid"
+    },
+    {
+    "name": "The Real Thing.2",
+    "img": "/datasets/cover/42.jpg",
+    "music": "/datasets/audio/The_Real_Thing.2.mid"
+    },
+    {
+    "name": "The Real Thing",
+    "img": "/datasets/cover/43.jpg",
+    "music": "/datasets/audio/The_Real_Thing.mid"
+    },
+    {
+    "name": "Tribal Dance edit .1",
+    "img": "/datasets/cover/44.jpg",
+    "music": "/datasets/audio/Tribal_Dance_edit_.1.mid"
+    },
+    {
+      "name": "Tribal Dance edit .2",
+      "img": "/datasets/cover/45.jpg",
+      "music": "/datasets/audio/Tribal_Dance_edit_.2.mid"
+    },
+    {
+      "name": "Tribal Dance edit ",
+      "img": "/datasets/cover/46.jpg",
+      "music": "/datasets/audio/Tribal_Dance_edit_.mid"
+    },
+    {
+      "name": "Twilight Zone.1",
+      "img": "/datasets/cover/47.jpg",
+      "music": "/datasets/audio/Twilight_Zone.1.mid"
+    },
+    {
+      "name": "Twilight Zone.2",
+      "img": "/datasets/cover/48.jpg",
+      "music": "/datasets/audio/Twilight_Zone.2.mid"
+    },
+    {
+      "name": "Twilight Zone.3",
+      "img": "/datasets/cover/49.jpg",
+      "music": "/datasets/audio/Twilight_Zone.3.mid"
+    },
+    {
+      "name": "Twilight Zone",
+      "img": "/datasets/cover/50.jpg",
+      "music": "/datasets/audio/Twilight_Zone.mid"
+    },
+    {
+      "name": "Workaholic.1",
+      "img": "/datasets/cover/51.jpg",
+      "music": "/datasets/audio/Workaholic.1.mid"
+    },
+    {
+      "name": "Workaholic",
+      "img": "/datasets/cover/52.jpg",
+      "music": "/datasets/audio/Workaholic.mid"
+    },
+    {
+      "name": "All Mixed Up.1",
+      "img": "/datasets/cover/53.jpg",
+      "music": "/datasets/audio/All_Mixed_Up.1.mid"
+    },
+    {
+      "name": "All Mixed Up",
+      "img": "/datasets/cover/54.jpg",
+      "music": "/datasets/audio/All_Mixed_Up.mid"
+    },
+    {
+      "name": "Down",
+      "img": "/datasets/cover/55.jpg",
+      "music": "/datasets/audio/Down.mid"
+    },
+    {
+      "name": "T P Combo",
+      "img": "/datasets/cover/56.jpg",
+      "music": "/datasets/audio/T_P_Combo.mid"
+    },
+    {
+      "name": "I Need You",
+      "img": "/datasets/cover/57.jpg",
+      "music": "/datasets/audio/I_Need_You.mid"
+    },
+    {
+      "name": "Why",
+      "img": "/datasets/cover/58.jpg",
+      "music": "/datasets/audio/Why.mid"
+    },
+    {
+      "name": "Whats Up.1",
+      "img": "/datasets/cover/59.jpg",
+      "music": "/datasets/audio/Whats_Up.1.mid"
+    },
+    {
+      "name": "Whats Up.2",
+      "img": "/datasets/cover/60.jpg",
+      "music": "/datasets/audio/Whats_Up.2.mid"
+    },
+    {
+      "name": "Whats Up.3",
+      "img": "/datasets/cover/61.jpg",
+      "music": "/datasets/audio/Whats_Up.3.mid"
+    },
+    {
+      "name": "Whats Up.4",
+      "img": "/datasets/cover/62.jpg",
+      "music": "/datasets/audio/Whats_Up.4.mid"
+    },
+    {
+      "name": "Whats Up.5",
+      "img": "/datasets/cover/63.jpg",
+      "music": "/datasets/audio/Whats_Up.5.mid"
+    },
+    {
+      "name": "Whats Up",
+      "img": "/datasets/cover/64.jpg",
+      "music": "/datasets/audio/Whats_Up.mid"
+    },
+    {
+      "name": "Where My Girls At",
+      "img": "/datasets/cover/65.jpg",
+      "music": "/datasets/audio/Where_My_Girls_At.mid"
+    },
+    {
+      "name": "Pacific 202",
+      "img": "/datasets/cover/66.jpg",
+      "music": "/datasets/audio/Pacific_202.mid"
+    },
+    {
+      "name": "Andra tutto bene 58 .1",
+      "img": "/datasets/cover/67.jpg",
+      "music": "/datasets/audio/Andra_tutto_bene_58_.1.mid"
+    },
+    {
+      "name": "Andra tutto bene 58 ",
+      "img": "/datasets/cover/68.jpg",
+      "music": "/datasets/audio/Andra_tutto_bene_58_.mid"
+    },
+    {
+      "name": "Chiuditi nel cesso.1",
+      "img": "/datasets/cover/69.jpg",
+      "music": "/datasets/audio/Chiuditi_nel_cesso.1.mid"
+    },
+    {
+      "name": "Chiuditi nel cesso",
+      "img": "/datasets/cover/70.jpg",
+      "music": "/datasets/audio/Chiuditi_nel_cesso.mid"
+    },
+    {
+      "name": "Come mai feat. Fiorello .1",
+      "img": "/datasets/cover/71.jpg",
+      "music": "/datasets/audio/Come_mai_feat._Fiorello_.1.mid"
+    },
+    {
+      "name": "Come mai feat. Fiorello .2",
+      "img": "/datasets/cover/72.jpg",
+      "music": "/datasets/audio/Come_mai_feat._Fiorello_.2.mid"
+    },
+    {
+      "name": "Come mai feat. Fiorello ",
+      "img": "/datasets/cover/73.jpg",
+      "music": "/datasets/audio/Come_mai_feat._Fiorello_.mid"
+    },
+    {
+      "name": "Con un deca.1",
+      "img": "/datasets/cover/74.jpg",
+      "music": "/datasets/audio/Con_un_deca.1.mid"
+    },
+    {
+      "name": "Con un deca",
+      "img": "/datasets/cover/75.jpg",
+      "music": "/datasets/audio/Con_un_deca.mid"
+    },
+    {
+      "name": "Cumuni",
+      "img": "/datasets/cover/76.jpg",
+      "music": "/datasets/audio/Cumuni.mid"
+    },
+    {
+      "name": "Dimmi perche remix ",
+      "img": "/datasets/cover/77.jpg",
+      "music": "/datasets/audio/Dimmi_perche_remix_.mid"
+    },
+    {
+      "name": "Gli anni 96 .1",
+      "img": "/datasets/cover/78.jpg",
+      "music": "/datasets/audio/Gli_anni_96_.1.mid"
+    },
+    {
+      "name": "Gli anni 96 ",
+      "img": "/datasets/cover/79.jpg",
+      "music": "/datasets/audio/Gli_anni_96_.mid"
+    },
+    {
+      "name": "Grazie mille.1",
+      "img": "/datasets/cover/80.jpg",
+      "music": "/datasets/audio/Grazie_mille.1.mid"
+    },
+    {
+      "name": "Grazie mille",
+      "img": "/datasets/cover/81.jpg",
+      "music": "/datasets/audio/Grazie_mille.mid"
+    },
+    {
+      "name": "Hanno ucciso luomo ragno.1",
+      "img": "/datasets/cover/82.jpg",
+      "music": "/datasets/audio/Hanno_ucciso_luomo_ragno.1.mid"
+    },
+    {
+      "name": "Hanno ucciso luomo ragno.2",
+      "img": "/datasets/cover/83.jpg",
+      "music": "/datasets/audio/Hanno_ucciso_luomo_ragno.2.mid"
+    },
+    {
+      "name": "Hanno ucciso luomo ragno",
+      "img": "/datasets/cover/84.jpg",
+      "music": "/datasets/audio/Hanno_ucciso_luomo_ragno.mid"
+    },
+    {
+      "name": "Innamorare tanto",
+      "img": "/datasets/cover/85.jpg",
+      "music": "/datasets/audio/Innamorare_tanto.mid"
+    },
+    {
+      "name": "Io ci saro.1",
+      "img": "/datasets/cover/86.jpg",
+      "music": "/datasets/audio/Io_ci_saro.1.mid"
+    },
+    {
+      "name": "Io ci saro",
+      "img": "/datasets/cover/87.jpg",
+      "music": "/datasets/audio/Io_ci_saro.mid"
+    },
+    {
+      "name": "La dura legge del gol",
+      "img": "/datasets/cover/88.jpg",
+      "music": "/datasets/audio/La_dura_legge_del_gol.mid"
+    },
+    {
+      "name": "La regola dellamico",
+      "img": "/datasets/cover/89.jpg",
+      "music": "/datasets/audio/La_regola_dellamico.mid"
+    },
+    {
+      "name": "Le luci di Natale",
+      "img": "/datasets/cover/90.jpg",
+      "music": "/datasets/audio/Le_luci_di_Natale.mid"
+    },
+    {
+      "name": "Nella notte.1",
+      "img": "/datasets/cover/91.jpg",
+      "music": "/datasets/audio/Nella_notte.1.mid"
+    },
+    {
+      "name": "Nella notte.2",
+      "img": "/datasets/cover/92.jpg",
+      "music": "/datasets/audio/Nella_notte.2.mid"
+    },
+    {
+      "name": "Nella notte",
+      "img": "/datasets/cover/93.jpg",
+      "music": "/datasets/audio/Nella_notte.mid"
+    },
+    {
+      "name": "Nella notte Molella remix ",
+      "img": "/datasets/cover/94.jpg",
+      "music": "/datasets/audio/Nella_notte_Molella_remix_.mid"
+    },
+    {
+      "name": "Nessun rimpianto.1",
+      "img": "/datasets/cover/95.jpg",
+      "music": "/datasets/audio/Nessun_rimpianto.1.mid"
+    },
+    {
+      "name": "Nessun rimpianto",
+      "img": "/datasets/cover/96.jpg",
+      "music": "/datasets/audio/Nessun_rimpianto.mid"
+    },
+    {
+      "name": "Non mi arrendo.1",
+      "img": "/datasets/cover/97.jpg",
+      "music": "/datasets/audio/Non_mi_arrendo.1.mid"
+    },
+    {
+      "name": "Non mi arrendo",
+      "img": "/datasets/cover/98.jpg",
+      "music": "/datasets/audio/Non_mi_arrendo.mid"
+    },
+    {
+      "name": "Non ti passa piu",
+      "img": "/datasets/cover/99.jpg",
+      "music": "/datasets/audio/Non_ti_passa_piu.mid"
+    },
+    {
+      "name": "Nord Sud Ovest Est.1",
+      "img": "/datasets/cover/100.jpg",
+      "music": "/datasets/audio/Nord_Sud_Ovest_Est.1.mid"
+    },
+    {
+      "name": "Nord Sud Ovest Est.2",
+      "img": "/datasets/cover/101.jpg",
+      "music": "/datasets/audio/Nord_Sud_Ovest_Est.2.mid"
+    },
+    {
+      "name": "Nord Sud Ovest Est.3",
+      "img": "/datasets/cover/102.jpg",
+      "music": "/datasets/audio/Nord_Sud_Ovest_Est.3.mid"
+    },
+    {
+      "name": "Nord Sud Ovest Est.4",
+      "img": "/datasets/cover/103.jpg",
+      "music": "/datasets/audio/Nord_Sud_Ovest_Est.4.mid"
+    },
+    {
+      "name": "Nord Sud Ovest Est",
+      "img": "/datasets/cover/104.jpg",
+      "music": "/datasets/audio/Nord_Sud_Ovest_Est.mid"
+    },
+    {
+      "name": "Rotta x casa di Dio",
+      "img": "/datasets/cover/105.jpg",
+      "music": "/datasets/audio/Rotta_x_casa_di_Dio.mid"
+    },
+    {
+      "name": "Sei un mito.1",
+      "img": "/datasets/cover/106.jpg",
+      "music": "/datasets/audio/Sei_un_mito.1.mid"
+    },
+    {
+      "name": "Sei un mito.2",
+      "img": "/datasets/cover/107.jpg",
+      "music": "/datasets/audio/Sei_un_mito.2.mid"
+    },
+    {
+      "name": "Sei un mito.3",
+      "img": "/datasets/cover/108.jpg",
+      "music": "/datasets/audio/Sei_un_mito.3.mid"
+    },
+    {
+      "name": "Sei un mito",
+      "img": "/datasets/cover/109.jpg",
+      "music": "/datasets/audio/Sei_un_mito.mid"
+    },
+    {
+      "name": "Senza averti qui.1",
+      "img": "/datasets/cover/110.jpg",
+      "music": "/datasets/audio/Senza_averti_qui.1.mid"
+    },
+    {
+      "name": "Senza averti qui.2",
+      "img": "/datasets/cover/111.jpg",
+      "music": "/datasets/audio/Senza_averti_qui.2.mid"
+    },
+    {
+      "name": "Senza averti qui",
+      "img": "/datasets/cover/112.jpg",
+      "music": "/datasets/audio/Senza_averti_qui.mid"
+    },
+    {
+      "name": "Se tornerai.1",
+      "img": "/datasets/cover/113.jpg",
+      "music": "/datasets/audio/Se_tornerai.1.mid"
+    },
+    {
+      "name": "Se tornerai.2",
+      "img": "/datasets/cover/114.jpg",
+      "music": "/datasets/audio/Se_tornerai.2.mid"
+    },
+    {
+      "name": "Se tornerai",
+      "img": "/datasets/cover/115.jpg",
+      "music": "/datasets/audio/Se_tornerai.mid"
+    },
+    {
+      "name": "Tieni il tempo.1",
+      "img": "/datasets/cover/116.jpg",
+      "music": "/datasets/audio/Tieni_il_tempo.1.mid"
+    },
+    {
+      "name": "Tieni il tempo.2",
+      "img": "/datasets/cover/117.jpg",
+      "music": "/datasets/audio/Tieni_il_tempo.2.mid"
+    },
+    {
+      "name": "Tieni il tempo",
+      "img": "/datasets/cover/118.jpg",
+      "music": "/datasets/audio/Tieni_il_tempo.mid"
+    },
+    {
+      "name": "Ti sento vivere",
+      "img": "/datasets/cover/119.jpg",
+      "music": "/datasets/audio/Ti_sento_vivere.mid"
+    },
+    {
+      "name": "Tutto cio che ho",
+      "img": "/datasets/cover/120.jpg",
+      "music": "/datasets/audio/Tutto_cio_che_ho.mid"
+    },
+    {
+      "name": "Una canzone damore.1",
+      "img": "/datasets/cover/121.jpg",
+      "music": "/datasets/audio/Una_canzone_damore.1.mid"
+    },
+    {
+      "name": "Una canzone damore.2",
+      "img": "/datasets/cover/122.jpg",
+      "music": "/datasets/audio/Una_canzone_damore.2.mid"
+    },
+    {
+      "name": "Una canzone damore",
+      "img": "/datasets/cover/123.jpg",
+      "music": "/datasets/audio/Una_canzone_damore.mid"
+    },
+    {
+      "name": "Un giorno cosi.1",
+      "img": "/datasets/cover/124.jpg",
+      "music": "/datasets/audio/Un_giorno_cosi.1.mid"
+    },
+    {
+      "name": "Un giorno cosi",
+      "img": "/datasets/cover/125.jpg",
+      "music": "/datasets/audio/Un_giorno_cosi.mid"
+    },
+    {
+      "name": "Viaggio al centro del mondo",
+      "img": "/datasets/cover/126.jpg",
+      "music": "/datasets/audio/Viaggio_al_centro_del_mondo.mid"
+    },
+    {
+      "name": "The Day We Find Love",
+      "img": "/datasets/cover/127.jpg",
+      "music": "/datasets/audio/The_Day_We_Find_Love.mid"
+    },
+    {
+      "name": "I Do",
+      "img": "/datasets/cover/128.jpg",
+      "music": "/datasets/audio/I_Do.mid"
+    },
+    {
+      "name": "Shes Out of My Life",
+      "img": "/datasets/cover/129.jpg",
+      "music": "/datasets/audio/Shes_Out_of_My_Life.mid"
+    },
+    {
+      "name": "The Hardest Thing",
+      "img": "/datasets/cover/130.jpg",
+      "music": "/datasets/audio/The_Hardest_Thing.mid"
+    },
+    {
+      "name": "Hunting High and Low",
+      "img": "/datasets/cover/131.jpg",
+      "music": "/datasets/audio/Hunting_High_and_Low.mid"
+    },
+    {
+      "name": "Take On Me.1",
+      "img": "/datasets/cover/132.jpg",
+      "music": "/datasets/audio/Take_On_Me.1.mid"
+    },
+    {
+      "name": "Take On Me.2",
+      "img": "/datasets/cover/133.jpg",
+      "music": "/datasets/audio/Take_On_Me.2.mid"
+    },
+    {
+      "name": "Take On Me.3",
+      "img": "/datasets/cover/134.jpg",
+      "music": "/datasets/audio/Take_On_Me.3.mid"
+    },
+    {
+      "name": "Take On Me.4",
+      "img": "/datasets/cover/135.jpg",
+      "music": "/datasets/audio/Take_On_Me.4.mid"
+    },
+    {
+      "name": "Take On Me.5",
+      "img": "/datasets/cover/136.jpg",
+      "music": "/datasets/audio/Take_On_Me.5.mid"
+    },
+    {
+      "name": "Take On Me.6",
+      "img": "/datasets/cover/137.jpg",
+      "music": "/datasets/audio/Take_On_Me.6.mid"
+    },
+    {
+      "name": "Take On Me",
+      "img": "/datasets/cover/138.jpg",
+      "music": "/datasets/audio/Take_On_Me.mid"
+    },
+    {
+      "name": "The Living Daylights.1",
+      "img": "/datasets/cover/139.jpg",
+      "music": "/datasets/audio/The_Living_Daylights.1.mid"
+    },
+    {
+      "name": "The Living Daylights",
+      "img": "/datasets/cover/140.jpg",
+      "music": "/datasets/audio/The_Living_Daylights.mid"
+    },
+    {
+      "name": "The Sun Always Shines on TV",
+      "img": "/datasets/cover/141.jpg",
+      "music": "/datasets/audio/The_Sun_Always_Shines_on_TV.mid"
+    },
+    {
+      "name": "Are You That Somebody",
+      "img": "/datasets/cover/142.jpg",
+      "music": "/datasets/audio/Are_You_That_Somebody.mid"
+    },
+    {
+      "name": "Try Again",
+      "img": "/datasets/cover/143.jpg",
+      "music": "/datasets/audio/Try_Again.mid"
+    },
+    {
+      "name": "For the Good Times",
+      "img": "/datasets/cover/144.jpg",
+      "music": "/datasets/audio/For_the_Good_Times.mid"
+    },
+    {
+      "name": "Tell It Like It Is",
+      "img": "/datasets/cover/145.jpg",
+      "music": "/datasets/audio/Tell_It_Like_It_Is.mid"
+    },
+    {
+      "name": "The Grand Tour",
+      "img": "/datasets/cover/146.jpg",
+      "music": "/datasets/audio/The_Grand_Tour.mid"
+    },
+    {
+      "name": "Andante, Andante",
+      "img": "/datasets/cover/147.jpg",
+      "music": "/datasets/audio/Andante,_Andante.mid"
+    },
+    {
+      "name": "Angeleyes",
+      "img": "/datasets/cover/148.jpg",
+      "music": "/datasets/audio/Angeleyes.mid"
+    },
+    {
+      "name": "Another Town, Another Train",
+      "img": "/datasets/cover/149.jpg",
+      "music": "/datasets/audio/Another_Town,_Another_Train.mid"
+    },
+    {
+      "name": "Chiquitita.1",
+      "img": "/datasets/cover/150.jpg",
+      "music": "/datasets/audio/Chiquitita.1.mid"
+    },
+    {
+      "name": "Chiquitita.2",
+      "img": "/datasets/cover/151.jpg",
+      "music": "/datasets/audio/Chiquitita.2.mid"
+    },
+    {
+      "name": "Chiquitita.3",
+      "img": "/datasets/cover/152.jpg",
+      "music": "/datasets/audio/Chiquitita.3.mid"
+    },
+    {
+      "name": "Chiquitita.4",
+      "img": "/datasets/cover/153.jpg",
+      "music": "/datasets/audio/Chiquitita.4.mid"
+    },
+    {
+      "name": "Chiquitita",
+      "img": "/datasets/cover/154.jpg",
+      "music": "/datasets/audio/Chiquitita.mid"
+    },
+    {
+      "name": "Dance While the Music Still Goes on .1",
+      "img": "/datasets/cover/155.jpg",
+      "music": "/datasets/audio/Dance_While_the_Music_Still_Goes_on_.1.mid"
+    },
+    {
+      "name": "Dance While the Music Still Goes on .2",
+      "img": "/datasets/cover/156.jpg",
+      "music": "/datasets/audio/Dance_While_the_Music_Still_Goes_on_.2.mid"
+    },
+    {
+      "name": "Dance While the Music Still Goes on .3",
+      "img": "/datasets/cover/157.jpg",
+      "music": "/datasets/audio/Dance_While_the_Music_Still_Goes_on_.3.mid"
+    },
+    {
+      "name": "Dance While the Music Still Goes on ",
+      "img": "/datasets/cover/158.jpg",
+      "music": "/datasets/audio/Dance_While_the_Music_Still_Goes_on_.mid"
+    },
+    {
+      "name": "Dancing Queen.1",
+      "img": "/datasets/cover/159.jpg",
+      "music": "/datasets/audio/Dancing_Queen.1.mid"
+    },
+    {
+      "name": "Dancing Queen.10",
+      "img": "/datasets/cover/160.jpg",
+      "music": "/datasets/audio/Dancing_Queen.10.mid"
+    },
+    {
+      "name": "Dancing Queen.11",
+      "img": "/datasets/cover/161.jpg",
+      "music": "/datasets/audio/Dancing_Queen.11.mid"
+    },
+    {
+      "name": "Dancing Queen.12",
+      "img": "/datasets/cover/162.jpg",
+      "music": "/datasets/audio/Dancing_Queen.12.mid"
+    },
+    {
+      "name": "Dancing Queen.2",
+      "img": "/datasets/cover/163.jpg",
+      "music": "/datasets/audio/Dancing_Queen.2.mid"
+    },
+    {
+      "name": "Dancing Queen.3",
+      "img": "/datasets/cover/164.jpg",
+      "music": "/datasets/audio/Dancing_Queen.3.mid"
+    },
+    {
+      "name": "Dancing Queen.4",
+      "img": "/datasets/cover/165.jpg",
+      "music": "/datasets/audio/Dancing_Queen.4.mid"
+    },
+    {
+      "name": "Dancing Queen.5",
+      "img": "/datasets/cover/166.jpg",
+      "music": "/datasets/audio/Dancing_Queen.5.mid"
+    },
+    {
+      "name": "Dancing Queen.6",
+      "img": "/datasets/cover/167.jpg",
+      "music": "/datasets/audio/Dancing_Queen.6.mid"
+    },
+    {
+      "name": "Dancing Queen.7",
+      "img": "/datasets/cover/168.jpg",
+      "music": "/datasets/audio/Dancing_Queen.7.mid"
+    },
+    {
+      "name": "Dancing Queen.8",
+      "img": "/datasets/cover/169.jpg",
+      "music": "/datasets/audio/Dancing_Queen.8.mid"
+    },
+    {
+      "name": "Dancing Queen.9",
+      "img": "/datasets/cover/170.jpg",
+      "music": "/datasets/audio/Dancing_Queen.9.mid"
+    },
+    {
+      "name": "Dancing Queen",
+      "img": "/datasets/cover/171.jpg",
+      "music": "/datasets/audio/Dancing_Queen.mid"
+    },
+    {
+      "name": "Does Your Mother Know.1",
+      "img": "/datasets/cover/172.jpg",
+      "music": "/datasets/audio/Does_Your_Mother_Know.1.mid"
+    },
+    {
+      "name": "Does Your Mother Know.2",
+      "img": "/datasets/cover/173.jpg",
+      "music": "/datasets/audio/Does_Your_Mother_Know.2.mid"
+    },
+    {
+      "name": "Does Your Mother Know.3",
+      "img": "/datasets/cover/174.jpg",
+      "music": "/datasets/audio/Does_Your_Mother_Know.3.mid"
+    },
+    {
+      "name": "Does Your Mother Know.4",
+      "img": "/datasets/cover/175.jpg",
+      "music": "/datasets/audio/Does_Your_Mother_Know.4.mid"
+    },
+    {
+      "name": "Does Your Mother Know",
+      "img": "/datasets/cover/176.jpg",
+      "music": "/datasets/audio/Does_Your_Mother_Know.mid"
+    },
+    {
+      "name": "Eagle",
+      "img": "/datasets/cover/177.jpg",
+      "music": "/datasets/audio/Eagle.mid"
+    },
+    {
+      "name": "Fernando.1",
+      "img": "/datasets/cover/178.jpg",
+      "music": "/datasets/audio/Fernando.1.mid"
+    },
+    {
+      "name": "Fernando.10",
+      "img": "/datasets/cover/179.jpg",
+      "music": "/datasets/audio/Fernando.10.mid"
+    },
+    {
+      "name": "Fernando.11",
+      "img": "/datasets/cover/180.jpg",
+      "music": "/datasets/audio/Fernando.11.mid"
+    },
+    {
+      "name": "Fernando.2",
+      "img": "/datasets/cover/181.jpg",
+      "music": "/datasets/audio/Fernando.2.mid"
+    },
+    {
+      "name": "Fernando.3",
+      "img": "/datasets/cover/182.jpg",
+      "music": "/datasets/audio/Fernando.3.mid"
+    },
+    {
+      "name": "Fernando.4",
+      "img": "/datasets/cover/183.jpg",
+      "music": "/datasets/audio/Fernando.4.mid"
+    },
+    {
+      "name": "Fernando.5",
+      "img": "/datasets/cover/184.jpg",
+      "music": "/datasets/audio/Fernando.5.mid"
+    },
+    {
+      "name": "Fernando.6",
+      "img": "/datasets/cover/185.jpg",
+      "music": "/datasets/audio/Fernando.6.mid"
+    },
+    {
+      "name": "Fernando.7",
+      "img": "/datasets/cover/186.jpg",
+      "music": "/datasets/audio/Fernando.7.mid"
+    },
+    {
+      "name": "Fernando.8",
+      "img": "/datasets/cover/187.jpg",
+      "music": "/datasets/audio/Fernando.8.mid"
+    },
+    {
+      "name": "Fernando.9",
+      "img": "/datasets/cover/188.jpg",
+      "music": "/datasets/audio/Fernando.9.mid"
+    },
+    {
+      "name": "Fernando",
+      "img": "/datasets/cover/189.jpg",
+      "music": "/datasets/audio/Fernando.mid"
+    },
+    {
+      "name": "Gimme Gimme Gimme.1",
+      "img": "/datasets/cover/190.jpg",
+      "music": "/datasets/audio/Gimme_Gimme_Gimme.1.mid"
+    },
+    {
+      "name": "Gimme Gimme Gimme",
+      "img": "/datasets/cover/191.jpg",
+      "music": "/datasets/audio/Gimme_Gimme_Gimme.mid"
+    },
+    {
+      "name": "Hamlet III, Part 2",
+      "img": "/datasets/cover/192.jpg",
+      "music": "/datasets/audio/Hamlet_III,_Part_2.mid"
+    },
+    {
+      "name": "Hasta Manana",
+      "img": "/datasets/cover/193.jpg",
+      "music": "/datasets/audio/Hasta_Manana.mid"
+    },
+    {
+      "name": "Hey, Hey Helen.1",
+      "img": "/datasets/cover/194.jpg",
+      "music": "/datasets/audio/Hey,_Hey_Helen.1.mid"
+    },
+    {
+      "name": "Hey, Hey Helen",
+      "img": "/datasets/cover/195.jpg",
+      "music": "/datasets/audio/Hey,_Hey_Helen.mid"
+    },
+    {
+      "name": "Hole In Your Soul",
+      "img": "/datasets/cover/196.jpg",
+      "music": "/datasets/audio/Hole_In_Your_Soul.mid"
+    },
+    {
+      "name": "Honey Honey.1",
+      "img": "/datasets/cover/197.jpg",
+      "music": "/datasets/audio/Honey_Honey.1.mid"
+    },
+    {
+      "name": "Honey Honey",
+      "img": "/datasets/cover/198.jpg",
+      "music": "/datasets/audio/Honey_Honey.mid"
+    },
+    {
+      "name": "Im a Marionette.1",
+      "img": "/datasets/cover/199.jpg",
+      "music": "/datasets/audio/Im_a_Marionette.1.mid"
+    },
+    {
+      "name": "Im a Marionette",
+      "img": "/datasets/cover/200.jpg",
+      "music": "/datasets/audio/Im_a_Marionette.mid"
+    },
+    {
+      "name": "Ive Been Waiting For You",
+      "img": "/datasets/cover/201.jpg",
+      "music": "/datasets/audio/Ive_Been_Waiting_For_You.mid"
+    },
+    {
+      "name": "I Am the City",
+      "img": "/datasets/cover/202.jpg",
+      "music": "/datasets/audio/I_Am_the_City.mid"
+    },
+    {
+      "name": "I Do, I Do, I Do, I Do.1",
+      "img": "/datasets/cover/203.jpg",
+      "music": "/datasets/audio/I_Do,_I_Do,_I_Do,_I_Do.1.mid"
+    },
+    {
+      "name": "I Do, I Do, I Do, I Do.2",
+      "img": "/datasets/cover/204.jpg",
+      "music": "/datasets/audio/I_Do,_I_Do,_I_Do,_I_Do.2.mid"
+    },
+    {
+      "name": "I Do, I Do, I Do, I Do",
+      "img": "/datasets/cover/205.jpg",
+      "music": "/datasets/audio/I_Do,_I_Do,_I_Do,_I_Do.mid"
+    },
+    {
+      "name": "I Have a Dream.1",
+      "img": "/datasets/cover/206.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.1.mid"
+    },
+    {
+      "name": "I Have a Dream.2",
+      "img": "/datasets/cover/207.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.2.mid"
+    },
+    {
+      "name": "I Have a Dream.3",
+      "img": "/datasets/cover/208.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.3.mid"
+    },
+    {
+      "name": "I Have a Dream.4",
+      "img": "/datasets/cover/209.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.4.mid"
+    },
+    {
+      "name": "I Have a Dream.5",
+      "img": "/datasets/cover/210.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.5.mid"
+    },
+    {
+      "name": "I Have a Dream.6",
+      "img": "/datasets/cover/211.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.6.mid"
+    },
+    {
+      "name": "I Have a Dream",
+      "img": "/datasets/cover/212.jpg",
+      "music": "/datasets/audio/I_Have_a_Dream.mid"
+    },
+    {
+      "name": "I Wonder Departure ",
+      "img": "/datasets/cover/213.jpg",
+      "music": "/datasets/audio/I_Wonder_Departure_.mid"
+    },
+    {
+      "name": "Just Like That Full Sax version 1983 ",
+      "img": "/datasets/cover/214.jpg",
+      "music": "/datasets/audio/Just_Like_That_Full_Sax_version_1983_.mid"
+    },
+    {
+      "name": "Kisses of Fire.1",
+      "img": "/datasets/cover/215.jpg",
+      "music": "/datasets/audio/Kisses_of_Fire.1.mid"
+    },
+    {
+      "name": "Kisses of Fire",
+      "img": "/datasets/cover/216.jpg",
+      "music": "/datasets/audio/Kisses_of_Fire.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.1",
+      "img": "/datasets/cover/217.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.1.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.2",
+      "img": "/datasets/cover/218.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.2.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.3",
+      "img": "/datasets/cover/219.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.3.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.4",
+      "img": "/datasets/cover/220.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.4.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.5",
+      "img": "/datasets/cover/221.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.5.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.6",
+      "img": "/datasets/cover/222.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.6.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.7",
+      "img": "/datasets/cover/223.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.7.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.8",
+      "img": "/datasets/cover/224.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.8.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You.9",
+      "img": "/datasets/cover/225.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.9.mid"
+    },
+    {
+      "name": "Knowing Me, Knowing You",
+      "img": "/datasets/cover/226.jpg",
+      "music": "/datasets/audio/Knowing_Me,_Knowing_You.mid"
+    },
+    {
+      "name": "Lay All Your Love on Me.1",
+      "img": "/datasets/cover/227.jpg",
+      "music": "/datasets/audio/Lay_All_Your_Love_on_Me.1.mid"
+    },
+    {
+      "name": "Lay All Your Love on Me.2",
+      "img": "/datasets/cover/228.jpg",
+      "music": "/datasets/audio/Lay_All_Your_Love_on_Me.2.mid"
+    },
+    {
+      "name": "Lay All Your Love on Me",
+      "img": "/datasets/cover/229.jpg",
+      "music": "/datasets/audio/Lay_All_Your_Love_on_Me.mid"
+    },
+    {
+      "name": "Like an Angel Passing Through My Room",
+      "img": "/datasets/cover/230.jpg",
+      "music": "/datasets/audio/Like_an_Angel_Passing_Through_My_Room.mid"
+    },
+    {
+      "name": "Lovers Live a Little Longer ",
+      "img": "/datasets/cover/231.jpg",
+      "music": "/datasets/audio/Lovers_Live_a_Little_Longer_.mid"
+    },
+    {
+      "name": "Mamma Mia.1",
+      "img": "/datasets/cover/232.jpg",
+      "music": "/datasets/audio/Mamma_Mia.1.mid"
+    },
+    {
+      "name": "Mamma Mia.2",
+      "img": "/datasets/cover/233.jpg",
+      "music": "/datasets/audio/Mamma_Mia.2.mid"
+    },
+    {
+      "name": "Mamma Mia.3",
+      "img": "/datasets/cover/234.jpg",
+      "music": "/datasets/audio/Mamma_Mia.3.mid"
+    },
+    {
+      "name": "Mamma Mia.4",
+      "img": "/datasets/cover/235.jpg",
+      "music": "/datasets/audio/Mamma_Mia.4.mid"
+    },
+    {
+      "name": "Mamma Mia",
+      "img": "/datasets/cover/236.jpg",
+      "music": "/datasets/audio/Mamma_Mia.mid"
+    },
+    {
+      "name": "Medley.1",
+      "img": "/datasets/cover/237.jpg",
+      "music": "/datasets/audio/Medley.1.mid"
+    },
+    {
+      "name": "Medley",
+      "img": "/datasets/cover/238.jpg",
+      "music": "/datasets/audio/Medley.mid"
+    },
+    {
+      "name": "Money, Money, Money.1",
+      "img": "/datasets/cover/239.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.1.mid"
+    },
+    {
+      "name": "Money, Money, Money.10",
+      "img": "/datasets/cover/240.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.10.mid"
+    },
+    {
+      "name": "Money, Money, Money.11",
+      "img": "/datasets/cover/241.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.11.mid"
+    },
+    {
+      "name": "Money, Money, Money.2",
+      "img": "/datasets/cover/242.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.2.mid"
+    },
+    {
+      "name": "Money, Money, Money.3",
+      "img": "/datasets/cover/243.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.3.mid"
+    },
+    {
+      "name": "Money, Money, Money.4",
+      "img": "/datasets/cover/244.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.4.mid"
+    },
+    {
+      "name": "Money, Money, Money.5",
+      "img": "/datasets/cover/245.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.5.mid"
+    },
+    {
+      "name": "Money, Money, Money.6",
+      "img": "/datasets/cover/246.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.6.mid"
+    },
+    {
+      "name": "Money, Money, Money.7",
+      "img": "/datasets/cover/247.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.7.mid"
+    },
+    {
+      "name": "Money, Money, Money.8",
+      "img": "/datasets/cover/248.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.8.mid"
+    },
+    {
+      "name": "Money, Money, Money.9",
+      "img": "/datasets/cover/249.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.9.mid"
+    },
+    {
+      "name": "Money, Money, Money",
+      "img": "/datasets/cover/250.jpg",
+      "music": "/datasets/audio/Money,_Money,_Money.mid"
+    }
+  ]
+}
