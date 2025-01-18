@@ -198,9 +198,14 @@ def process_all_midi_files(folder_path, channel):
     for file_name in os.listdir(folder_path):
         if file_name.endswith('.mid'):
             file_path = os.path.join(folder_path, file_name)
-            segments = process_midi_file(file_path, channel)
-            if segments:  # Only add to midi_data if segments were found
-                midi_data[file_name] = segments
+            try:
+                segments = process_midi_file(file_path, channel)
+                if segments:  # Only add to midi_data if segments were found
+                    midi_data[file_name] = segments
+            except OSError as e:
+                print(f"Skipping corrupted file: {file_name}. Error: {e}")
+            except Exception as e:
+                print(f"Unexpected error processing {file_name}: {e}")
     
     return midi_data
 
